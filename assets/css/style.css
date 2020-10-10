@@ -76,6 +76,41 @@ animation: fadeIn  ease-out 4s;
     color: #7510F7;
 }
 
+/*Landing Page Background-image*/
+.landing-page-bg-image {
+    background-image: url('/assets/images/code-2620118_1280.jpg');
+    background-color: #ffffff;
+    height: 90vh;
+    min-width: 95vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Landing Page Background-image media queries*/
+@media only screen and (max-width: 320px) {
+   .landing-page-bg-image {
+       height: 80vh;
+    }
+}
+
+@media  only screen and (max-width: 823px) and (orientation: landscape) {
+    .landing-page-bg-image {
+        height: auto;
+    }
+}
+
+#profile-image {
+    border-radius: 50%;
+    border: 3px solid #aaaaaa;
+    max-height: 30vh;
+    max-width: 30vw;
+    margin-top: 1rem;
+}
+
 /*Footer*/
 
 footer {
