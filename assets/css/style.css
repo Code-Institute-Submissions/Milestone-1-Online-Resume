@@ -75,3 +75,27 @@ animation: fadeIn  ease-out 4s;
 .code-icon:hover {
     color: #7510F7;
 }
+
+/*Footer*/
+
+footer {
+    height: 7.5vh;
+    background-color: #343a40;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 7.5vh;
+    padding-left: 1rem;
+}
+
+footer a:hover, footer i:hover {
+    color: #fd9927;
+}
+
+footer i {
+    line-height: 7.5vh;
+    float: right;
+    color: #ffffff;
+}
