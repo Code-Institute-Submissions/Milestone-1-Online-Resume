@@ -1,0 +1,58 @@
+/*font awesome fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto&display=swap');
+
+/*General Style*/
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #F8F5F0;
+}
+
+h2, h3, h4, h5, dt {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+p, li, dd a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*Fade in animation applied to body*/
+.fade-in {
+animation: fadeIn  ease-out 4s;
+-webkit-animation: fadeIn ease-out 4s;
+-moz-animation: fadeIn ease-out 4s;
+-o-animation: fadeIn ease-out 4s;
+-ms-animation: fadeIn ease-out 4s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
