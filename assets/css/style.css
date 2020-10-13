@@ -140,6 +140,39 @@ animation: fadeIn  ease-out 4s;
     color: #FF00FF;
 }
 
+/*Contact button*/
+
+#contact-button-container {
+    margin-top: 2.5rem;
+}
+
+#contact-me-button {
+    margin: 0 auto;
+    font-weight: bold;
+    border: solid #FF00FF;
+    border-radius: 8px;
+    min-width: 10rem;
+    min-height: 2.5rem;
+}
+
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+    #contact-me-button {
+        margin-bottom: 1rem;
+    }
+}
+
+#contact-me-button:hover {
+    font-size: 1rem;
+}
+
+.contact-me-button-text {
+    color: #FF00FF; 
+}
+
+.contact-me-button-text:hover {
+    color: #FF00FF;
+}
+
 /*Footer*/
 
 footer {
