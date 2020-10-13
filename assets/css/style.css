@@ -115,7 +115,7 @@ animation: fadeIn  ease-out 4s;
 
 @media only screen and (max-width: 440px) {
    .landing-page-main-headings h2, .landing-page-main-headings h3 {
-       color: #b641ec;
+       color: #FF00FF;
     }
 }
 
@@ -195,6 +195,7 @@ animation: fadeIn  ease-out 4s;
     min-width: 95vw;
     min-height: 23vh;
     margin-top: 1rem;
+    background-color: #FF00FF;
     border-bottom: 1px solid #FF00FF;
 }
 
@@ -205,7 +206,7 @@ animation: fadeIn  ease-out 4s;
 }
 
 .summary {
-    color:#FF00FF;
+    color:#ffffff;
 }
 
 #summary-header {
@@ -220,8 +221,8 @@ animation: fadeIn  ease-out 4s;
 
 .contact-details-future-plans {
     margin-top: -5rem;
-    background-color: #FF00FF;
     border-radius: 25px;
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 823px) {
