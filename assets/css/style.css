@@ -173,6 +173,23 @@ animation: fadeIn  ease-out 4s;
     color: #FF00FF;
 }
 
+/*down arrow linking to summary*/
+#down-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #FF00FF;
+    padding-bottom: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#down-arrow:hover {
+    color: #FF00FF;
+    font-size: 1.75rem;
+}
+
+
 /*Footer*/
 
 footer {
