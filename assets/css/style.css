@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-    background-color: #F8F5F0;
+    background-color: #213970;
 }
 
 h2, h3, h4, h5, dt {
@@ -69,11 +69,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .nav-item a:hover {
-    border-bottom: 1px solid#FF00FF;
+    border-bottom: 1px solid#213970;
 }
 
 .code-icon:hover {
-    color: #FF00FF;
+    color: #213970;
 }
 
 /*Landing Page Background-image*/
@@ -82,7 +82,6 @@ animation: fadeIn  ease-out 4s;
     background-color: #ffffff;
     height: 90vh;
     min-width: 95vw;
-    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +104,7 @@ animation: fadeIn  ease-out 4s;
 
 #profile-image {
     border-radius: 50%;
-    border: 3px solid #FF00FF;
+    border: 3px solid #ffffff;
     max-height: 30vh;
     max-width: 30vw;
     margin-top: 1rem;
@@ -115,7 +114,7 @@ animation: fadeIn  ease-out 4s;
 
 @media only screen and (max-width: 440px) {
    .landing-page-main-headings h2, .landing-page-main-headings h3 {
-       color: #FF00FF;
+       color: #ffffff;
     }
 }
 
@@ -128,7 +127,7 @@ animation: fadeIn  ease-out 4s;
 }
 
 #landing-page-bg-image-linebreak {
-    border-top: 2px solid #FF00FF;
+    border-top: 2px solid #ffffff;
     width: 50%;
 }
 
@@ -137,7 +136,7 @@ animation: fadeIn  ease-out 4s;
 }
 
 .name-heading, .job-title-heading {
-    color: #FF00FF;
+    color: #ffffff;
 }
 
 /*Contact button*/
@@ -149,7 +148,7 @@ animation: fadeIn  ease-out 4s;
 #contact-me-button {
     margin: 0 auto;
     font-weight: bold;
-    border: solid #FF00FF;
+    border: solid #ffffff;
     border-radius: 8px;
     min-width: 10rem;
     min-height: 2.5rem;
@@ -166,11 +165,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .contact-me-button-text {
-    color: #FF00FF; 
+    color: #213970; 
 }
 
 .contact-me-button-text:hover {
-    color: #FF00FF;
+    color: #213970;
 }
 
 /*down arrow linking to summary*/
@@ -178,14 +177,14 @@ animation: fadeIn  ease-out 4s;
     position: absolute;
     right: 0;
     bottom: 0;
-    color: #FF00FF;
+    color: #ffffff;
     padding-bottom: 2.5rem;
     padding-right: 2.5rem;
     font-size: 1.5rem;
 }
 
 #down-arrow:hover {
-    color: #FF00FF;
+    color: #ffffff;
     font-size: 1.75rem;
 }
 
