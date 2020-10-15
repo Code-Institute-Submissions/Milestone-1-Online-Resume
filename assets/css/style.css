@@ -80,7 +80,7 @@ animation: fadeIn  ease-out 4s;
 .landing-page-bg-image {
     background-image: url('/assets/images/code-2620118_1280.jpg');
     background-color: #ffffff;
-    height: 90vh;
+    height: 95vh;
     min-width: 95vw;
     background-position: center;
     background-repeat: no-repeat;
