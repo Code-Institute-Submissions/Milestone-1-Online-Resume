@@ -193,7 +193,6 @@ animation: fadeIn  ease-out 4s;
     min-width: 95vw;
     min-height: 23vh;
     background-color: #1f8ac0;
-    border-bottom: 1px solid #FF00FF;
 }
 
 @media only screen and (max-width: 823px) and (orientation: landscape) {
@@ -206,22 +205,27 @@ animation: fadeIn  ease-out 4s;
     color:#ffffff;
 }
 
-#summary-header {
-    text-decoration: underline;
+#summary-header, .summary-text {
+    margin: 0.5rem;
+    color: #213970;
 }
 
 .summary-text {
     margin: 0.5rem;
 }
 
+.summary-text a {
+    color: #4c216e;
+}
+
 .about-me-button {
     margin-top: 0.5rem;
     background-color: #F8F5F0;
-    color: #FF00FF;
+    color: #213970;
 }
 
 .about-me-button:hover {
-    color: #FF00FF;
+    color: #213970;
     font-size: 0.9rem;
 }
 
@@ -241,15 +245,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .carousel-item i, .carousel-item div {
-    color: #FF00FF;
+    color: #1f8ac0;;
 }
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
-}
-
-.carousel-control-prev span, .carousel-control-next span {
-    color: black;
 }
 
 /*Contact Details*/
