@@ -244,6 +244,15 @@ animation: fadeIn  ease-out 4s;
     width: 75vw;
 }
 
+/*future plans*/
+.future-plans {
+    margin: 2rem auto 0;
+    padding-bottom: 2rem;
+    width: 85%;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
 /*Contact Details*/
 
 .contact-icon {
