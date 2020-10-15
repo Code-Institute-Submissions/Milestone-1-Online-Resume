@@ -188,6 +188,34 @@ animation: fadeIn  ease-out 4s;
     font-size: 1.75rem;
 }
 
+/*Carousel icons*/
+#carousel-icons {
+    margin-top: 1rem;
+}
+
+.carousel-item i {
+    margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel-item i {
+        margin-bottom: 10rem;
+    }
+}
+
+.carousel-item i, .carousel-item div {
+    color: #FF00FF;
+}
+
+.palette-icon, .layer-icon, .mobile-icon {
+    font-size: 3rem;
+}
+
+.carousel-control-prev span, .carousel-control-next span {
+    color: black;
+}
+
+
 /*Summary*/
 
 .summary-container {
@@ -216,10 +244,21 @@ animation: fadeIn  ease-out 4s;
     margin: 0.5rem;
 }
 
+.about-me-button {
+    margin-top: 0.5rem;
+    background-color: #F8F5F0;
+    color: #FF00FF;
+}
+
+.about-me-button:hover {
+    color: #FF00FF;
+    font-size: 0.9rem;
+}
+
 /*Contact Details*/
 
 .contact-details-future-plans {
-    margin-top: -5rem;
+    margin-top: 1rem;
     border-radius: 25px;
     background-color: #ffffff;
 }
@@ -244,7 +283,6 @@ animation: fadeIn  ease-out 4s;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-
 
 /*Footer*/
 
