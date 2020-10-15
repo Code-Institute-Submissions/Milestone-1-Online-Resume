@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-    background-color: #213970;
+    background-color: #1f8ac0;
 }
 
 h2, h3, h4, h5, dt {
@@ -191,8 +191,8 @@ animation: fadeIn  ease-out 4s;
 
 .summary-container {
     min-width: 95vw;
-    min-height: 23vh;
-    background-color: #1f8ac0;
+    min-height: 40vh;
+    background-color: #213970;
 }
 
 @media only screen and (max-width: 823px) and (orientation: landscape) {
@@ -205,28 +205,41 @@ animation: fadeIn  ease-out 4s;
     color:#ffffff;
 }
 
-#summary-header, .summary-text {
-    margin: 0.5rem;
-    color: #213970;
+#summary-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .summary-text {
-    margin: 0.5rem;
+    margin: auto;
+    width: 85%;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .summary-text {
+        width: 60%;
+    }
 }
 
 .summary-text a {
-    color: #4c216e;
+    color: #ffff;
 }
 
-.about-me-button {
+.summary-buttons a {
+    color: #213970;
+}
+
+.about-me-button, .download-cv {
     margin-top: 0.5rem;
+    margin-bottom: 2rem;
     background-color: #F8F5F0;
-    color: #213970;
+    width: 8rem;
 }
 
-.about-me-button:hover {
+.about-me-button:hover, .download-cv:hover {
     color: #213970;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 /*Carousel icons*/
