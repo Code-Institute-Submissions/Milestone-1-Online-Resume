@@ -88,13 +88,6 @@ animation: fadeIn  ease-out 4s;
     position: relative;
 }
 
-/*Landing Page Background-image media queries*/
-@media only screen and (max-width: 320px) {
-   .landing-page-bg-image {
-       height: 80vh;
-    }
-}
-
 @media  only screen and (max-width: 823px) and (orientation: landscape) {
     .landing-page-bg-image {
         height: auto;
@@ -226,6 +219,10 @@ animation: fadeIn  ease-out 4s;
     color: #ffff;
 }
 
+.summary-buttons {
+    margin: 0 auto;
+}
+
 .summary-buttons a {
     color: #213970;
 }
@@ -240,6 +237,34 @@ animation: fadeIn  ease-out 4s;
 .about-me-button:hover, .download-cv:hover {
     color: #213970;
     font-size: 0.6rem;
+}
+
+.summary-linebreak {
+    border-bottom: 1px solid #ffffff;
+    width: 75vw;
+}
+
+/*Contact Details*/
+
+.contact-icon {
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+
+.contact-details-container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-details-container a {
+    color: #ffffff;
+}
+
+.contact-details-header, .future-plans-header {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /*Carousel icons*/
@@ -258,40 +283,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .carousel-item i, .carousel-item div {
-    color: #1f8ac0;;
+    color: #ffffff;
 }
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
-}
-
-/*Contact Details*/
-
-.contact-details-future-plans {
-    margin-top: 1rem;
-    border-radius: 25px;
-    background-color: #ffffff;
-}
-
-@media only screen and (max-width: 823px) {
-   .contact-details-future-plans {
-       margin-top: 0rem;
-   }
-}
-
-.contact-icon {
-    font-size: 4rem;
-    margin-top: 0.5rem;
-}
-
-.contact-details-container {
-    width: 50%;
-    text-align: center;
-}
-
-.contact-details-header, .future-plans-header {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 /*Footer*/
