@@ -253,9 +253,24 @@ animation: fadeIn  ease-out 4s;
     color: #ffffff;
 }
 
+/*My work*/
+
+.my-work {
+    width: 85%;
+    min-height: 20vh;
+    color: #ffffff;
+}
+
+.my-work-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /*Carousel icons*/
 #carousel-icons {
     margin-top: 1rem;
+    background-color: #ffffff;
+    padding-top: 2rem;
 }
 
 .carousel-item i {
@@ -269,25 +284,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .carousel-item i, .carousel-item div {
-    color: #ffffff;
+    color: #213970;
 }
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
-}
-
-/*My work*/
-
-.my-work {
-    background-color: #213970;
-    width: 85%;
-    min-height: 33vh;
-    color: #ffffff;
-}
-
-.my-work-header {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 /*Contact Details*/
