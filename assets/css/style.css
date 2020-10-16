@@ -253,29 +253,6 @@ animation: fadeIn  ease-out 4s;
     color: #ffffff;
 }
 
-/*Contact Details*/
-
-.contact-icon {
-    font-size: 4rem;
-    margin-top: 0.5rem;
-}
-
-.contact-details-container {
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    color: #ffffff;
-}
-
-.contact-details-container a {
-    color: #ffffff;
-}
-
-.contact-details-header, .future-plans-header {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
 /*Carousel icons*/
 #carousel-icons {
     margin-top: 1rem;
@@ -297,6 +274,43 @@ animation: fadeIn  ease-out 4s;
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
+}
+
+/*My work*/
+
+.my-work {
+    background-color: #213970;
+    width: 85%;
+    min-height: 33vh;
+    color: #ffffff;
+}
+
+.my-work-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*Contact Details*/
+
+.contact-icon {
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+
+.contact-details-container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-details-container a {
+    color: #ffffff;
+}
+
+.contact-details-header, .future-plans-header {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /*Footer*/
