@@ -236,9 +236,9 @@ animation: fadeIn  ease-out 4s;
 
 /*My work*/
 .my-work {
-    width: 85%;
+    background-color: #ffffff;
+    width: 100%;
     min-height: 20vh;
-    color: #ffffff;
 }
 
 .my-work-header {
