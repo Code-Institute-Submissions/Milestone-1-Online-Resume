@@ -109,13 +109,6 @@ animation: fadeIn  ease-out 4s;
     margin-bottom: 10rem;
 }
 
-#profile-image {
-    border-radius: 50%;
-    border: 3px solid #ffffff;
-    max-height: 30vh;
-    max-width: 30vw;
-    margin-bottom: 2rem;
-}
 
 /*Landing page main headings*/
 .name-heading {
@@ -128,6 +121,14 @@ animation: fadeIn  ease-out 4s;
 
 .name-heading, .job-title-heading {
     color: #ffffff;
+}
+
+#profile-image {
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    max-height: 30vh;
+    max-width: 30vw;
+    margin-bottom: 2rem;
 }
 
 /*Contact button*/
@@ -148,27 +149,11 @@ animation: fadeIn  ease-out 4s;
     color: #ffffff;
 }
 
-/*down arrow linking to summary*/
-#down-arrow {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    color: #ffffff;
-    padding-bottom: 2.5rem;
-    padding-right: 2.5rem;
-    font-size: 1.5rem;
-}
-
-#down-arrow:hover {
-    color: #ffffff;
-    font-size: 1.75rem;
-}
-
 /*Summary*/
-
 .summary-container {
     min-width: 95vw;
     min-height: 40vh;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 823px) and (orientation: landscape) {
@@ -181,28 +166,29 @@ animation: fadeIn  ease-out 4s;
     color:#ffffff;
 }
 
-#summary-header {
+#summary-section-header {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #ffffff;
 }
 
-
-
-.summary-text {
+.summary-text, .future-plans {
     margin: auto;
     width: 85%;
     font-size: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
-    .summary-text {
+    .summary-text, .future-plans {
         width: 60%;
     }
 }
 
 .summary-text a {
     color: #ffff;
+}
+
+.summary-text p, .future-plans p {
+    margin-top: 2rem;
 }
 
 .summary-buttons {
@@ -230,17 +216,7 @@ animation: fadeIn  ease-out 4s;
     width: 75vw;
 }
 
-/*future plans*/
-.future-plans {
-    margin: 2rem auto 0;
-    padding-bottom: 2rem;
-    width: 85%;
-    font-size: 1rem;
-    color: #ffffff;
-}
-
 /*My work*/
-
 .my-work {
     width: 85%;
     min-height: 20vh;
