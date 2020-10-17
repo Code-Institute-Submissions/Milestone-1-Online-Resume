@@ -78,6 +78,7 @@ animation: fadeIn  ease-out 4s;
 
 /*Landing Page Background-image*/
 .landing-page-bg-image {
+    padding-top: 10rem;
     background-image: url('https://mikew1999.github.io/Milestone-1-Online-Resume/assets/images/iStock-1174690086.jpg');
     background-color: #ffffff;
     height: 95vh;
