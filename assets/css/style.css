@@ -79,13 +79,6 @@ animation: fadeIn  ease-out 4s;
 }
 
 /*Landing Page Background-image*/
-@media  only screen and (max-width: 823px) and (orientation: landscape) {
-    .landing-page-bg-image {
-        height: auto;
-        width: auto;
-    }
-}
-
 .landing-page-bg-image {
     padding-top: 10rem;
     background-image: url('https://mikew1999.github.io/Milestone-1-Online-Resume/assets/images/iStock-1174690086.jpg');
@@ -104,10 +97,11 @@ animation: fadeIn  ease-out 4s;
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) and (orientation: landscape) {
     .landing-page-bg-image {
         padding-top: 5rem;
         height: 150vh;
+        width: 100vw;
     }
 }
 
@@ -175,7 +169,6 @@ animation: fadeIn  ease-out 4s;
 .summary-container {
     min-width: 95vw;
     min-height: 40vh;
-    background-color: #213970;
 }
 
 @media only screen and (max-width: 823px) and (orientation: landscape) {
@@ -191,7 +184,10 @@ animation: fadeIn  ease-out 4s;
 #summary-header {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #ffffff;
 }
+
+
 
 .summary-text {
     margin: auto;
