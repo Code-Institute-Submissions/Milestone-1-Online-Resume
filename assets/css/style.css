@@ -183,6 +183,16 @@ animation: fadeIn  ease-out 4s;
     }
 }
 
+.summary-text img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.future-plans img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
 .summary-text a {
     color: #ffff;
 }
