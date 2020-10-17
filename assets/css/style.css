@@ -152,7 +152,7 @@ animation: fadeIn  ease-out 4s;
 /*Summary*/
 .summary-container {
     min-width: 95vw;
-    min-height: 40vh;
+    min-height: 50vh;
     color: #ffffff;
 }
 
@@ -167,8 +167,8 @@ animation: fadeIn  ease-out 4s;
 }
 
 #summary-section-header {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .summary-text, .future-plans {
@@ -242,8 +242,29 @@ animation: fadeIn  ease-out 4s;
 }
 
 .my-work-header {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.my-work-examples img {
+    width: 80%;
+    height: auto;
     margin-bottom: 2rem;
+}
+
+.portfolio-button {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-color: #213970;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.portfolio-button:hover {
+    font-size: 1rem;
+    color: #ffffff;
 }
 
 /*Carousel icons*/
