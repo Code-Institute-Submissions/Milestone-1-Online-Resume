@@ -78,7 +78,7 @@ animation: fadeIn  ease-out 4s;
 
 /*Landing Page Background-image*/
 .landing-page-bg-image {
-    background-image: url('/assets/css/images/iStock-1174690086.jpg');
+    background-image: url('css/images/iStock-1174690086.jpg');
     background-color: #ffffff;
     height: 95vh;
     min-width: 95vw;
