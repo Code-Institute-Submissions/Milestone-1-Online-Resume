@@ -203,7 +203,15 @@ animation: fadeIn  ease-out 4s;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     background-color: #F8F5F0;
-    width: 8rem;
+    width: 10rem;
+}
+
+.about-me-button {
+    margin-right: 0.5rem;
+}
+
+.download-cv {
+    margin-left: 0.5rem;
 }
 
 .about-me-button:hover, .download-cv:hover {
