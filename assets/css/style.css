@@ -78,7 +78,7 @@ animation: fadeIn  ease-out 4s;
 
 /*Landing Page Background-image*/
 .landing-page-bg-image {
-    background-image: url("assets/images/code-2620118_1280.jpg");
+    background-image: url('/assets/css/images/iStock-1174690086.jpg');
     background-color: #ffffff;
     height: 95vh;
     min-width: 95vw;
@@ -137,7 +137,7 @@ animation: fadeIn  ease-out 4s;
     margin-top: 1rem;
 }
 
-#contact-me-button {
+.contact-me-button {
     margin: 0 auto;
     font-weight: bold;
     border: solid #ffffff;
@@ -152,7 +152,7 @@ animation: fadeIn  ease-out 4s;
     }
 }
 
-#contact-me-button:hover {
+.contact-me-button:hover {
     font-size: 1rem;
 }
 
