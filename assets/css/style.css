@@ -228,17 +228,17 @@ animation: fadeIn  ease-out 4s;
 
 /*My work*/
 .my-work {
-    background-color: #ffffff;
-    color: #1f8ac0;
+    background-color: #213970;
+    color: #ffffff;
     width: 100%;
 }
 
 .my-work cite {
-    color: #1f8ac0;
+    color: #ffffff;
 }
 
 .my-work-linebreak {
-    border-bottom: 1px solid #1f8ac0;
+    border-bottom: 1px solid #ffffff;
     margin-bottom: 2rem;
     width: 60%;
 }
@@ -271,7 +271,6 @@ animation: fadeIn  ease-out 4s;
 
 /*Carousel icons*/
 #carousel-icons {
-    margin-top: 1rem;
     background-color: #ffffff;
     padding-top: 2rem;
 }
@@ -292,6 +291,13 @@ animation: fadeIn  ease-out 4s;
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
+}
+
+/*Portfolio Page*/
+
+.portfolio-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 /*Contact Details*/
