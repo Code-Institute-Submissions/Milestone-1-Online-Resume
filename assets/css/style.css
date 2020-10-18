@@ -71,11 +71,11 @@ animation: fadeIn  ease-out 4s;
 }
 
 .nav-item a:hover {
-    border-bottom: 1px solid#213970;
+    border-bottom: 1px solid#1f8ac0;
 }
 
 .code-icon:hover {
-    color: #213970;
+    color: #1f8ac0;
 }
 
 /*Landing Page Background-image*/
@@ -229,8 +229,18 @@ animation: fadeIn  ease-out 4s;
 /*My work*/
 .my-work {
     background-color: #ffffff;
+    color: #1f8ac0;
     width: 100%;
-    min-height: 20vh;
+}
+
+.my-work cite {
+    color: #1f8ac0;
+}
+
+.my-work-linebreak {
+    border-bottom: 1px solid #1f8ac0;
+    margin-bottom: 2rem;
+    width: 60%;
 }
 
 .my-work-header {
