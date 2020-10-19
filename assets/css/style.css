@@ -284,6 +284,17 @@ animation: fadeIn  ease-out 4s;
     text-align: right;
 }
 
+.resume-website-img {
+    float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    .resume-website-img, .love-running-website-img {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .my-work-examples, .my-work-examples p {
         text-align: center;
