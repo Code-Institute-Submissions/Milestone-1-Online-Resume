@@ -25,6 +25,14 @@ p, li, dd a {
     width: 100vw;
 }
 
+.left-aligned {
+    text-align: left;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
 /*Fade in animation applied to body*/
 .fade-in {
 animation: fadeIn  ease-out 4s;
@@ -165,6 +173,20 @@ animation: fadeIn  ease-out 4s;
     margin-bottom: 3rem;
 }
 
+.summary-text p {
+    text-align: left;
+}
+
+.future-plans p {
+    text-align: right;
+}
+
+@media only screen and (max-width: 450px) {
+    .summary-text p, .future-plans p {
+        text-align: center;
+    }
+}
+
 .summary-text, .future-plans {
     margin: auto;
     width: 85%;
@@ -254,6 +276,20 @@ animation: fadeIn  ease-out 4s;
     margin-bottom: 2rem;
 }
 
+.love-running-context {
+    text-align: left;
+}
+
+.resume-context {
+    text-align: right;
+}
+
+@media only screen and (max-width: 450px) {
+    .my-work-examples, .my-work-examples p {
+        text-align: center;
+    }
+}
+
 .love-running-context, .resume-context {
     width: 85%;
     margin: 0 auto;
@@ -327,6 +363,23 @@ animation: fadeIn  ease-out 4s;
     color: #F8F5F0;
 }
 
+/*Social Icons*/
+.socials-icons {
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.socials-icons a {
+    margin-right: 1rem;
+    color: #ffffff;
+}
+
+.socials-icons a:hover {
+    color: #c0bdbd;
+}
+
 /*About Me Page*/
 .about-me-main-header {
     margin-top: 5rem;
@@ -372,21 +425,28 @@ animation: fadeIn  ease-out 4s;
 footer {
     height: 7.5vh;
     background-color: #343a40;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 450px) {
+    footer {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    footer {
+        font-size: 0.5rem;
+    }
 }
 
 footer a {
     text-decoration: none;
     color: #ffffff;
     line-height: 7.5vh;
-    padding-left: 1rem;
+    padding-left: 1.3rem;
 }
 
-footer a:hover, footer i:hover {
-    color: #fd9927;
-}
-
-footer i {
-    line-height: 7.5vh;
-    float: right;
-    color: #ffffff;
+footer a:hover {
+    color: #c0bdbd;
 }
