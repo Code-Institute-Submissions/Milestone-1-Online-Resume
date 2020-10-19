@@ -33,6 +33,10 @@ p, li, dd a {
     text-align: right;
 }
 
+.max-width-100 {
+    max-width: 100%;
+}
+
 /*Fade in animation applied to body*/
 .fade-in {
 animation: fadeIn  ease-out 4s;
@@ -391,15 +395,63 @@ animation: fadeIn  ease-out 4s;
     padding-bottom: 0.5rem;
 }
 
-.about-me-summary-container{
-    margin-top: 2rem;
+@media only screen and (max-width: 540px) {
+    .about-me-secondary-header {
+        display: none;
+    }
 }
 
-.about-me-summary {
+.about-me-summary-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: #ffffff;
 }
 
+.about-me-summary div a {
+    color: #ffffff;
+}
+
+.about-me-summary-collapse .card {
+    background-color: #1f8ac0;
+}
+
+.collapse-button {
+    margin: 0.5rem auto;
+}
+
+.about-me-summary-linebreak {
+    height: 100%;
+    border-right: 1px solid #ffffff;
+    float: left;
+}
+
+@media only screen and (max-width: 540px) {
+    .about-me-summary-linebreak {
+        height: 1px;
+        width: 90vw;
+        border-bottom: 1px solid #ffffff;
+    }
+}
+
+/*My Skills*/
+.my-skills-header {
+
+}
+
 /*Work History*/
+.work-history {
+    padding-left: 7.5px;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 450px) {
+    .work-history .card-body {
+        padding: 0.5px;
+    }
+}
+
 /*This section is not my work - I have copied this from https://www.bootdey.com/snippets/view/timeline-events#css "Use it in your project and build your app faster"*/
 .timeline {
     border-left: 3px solid #727cf5;

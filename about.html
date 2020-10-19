@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Michael Walters | Full Stack Developer Resume</title>
 </head>
-<body class="fade-in">
+<body class="fade-in max-width-100">
 <!--Logo-->
 <nav class="navbar navbar-light fixed-top bg-light navbar-expand-lg width-100">
     <a class="navbar-brand logo" href="index.html">
@@ -46,7 +46,8 @@
 <!--Summary-->
 <div class="container-fluid text-center about-me-summary-container">
     <div class="row">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 text-md-left">
+            <h3 class="about-me-secondary-header">A bit about me</h3>
             <p class="about-me-summary">
                 My name is Michael Walters, an aspiring full stack developer with big dreams.
                 <br>
@@ -57,9 +58,7 @@
                 My passion for technology started at a young age when I helped my Father assemble PC's and learnt about his time in university studying computer science 
                 and the rest is history!
                 <br>
-                <br class="d-sm-block d-md-none">
-
-                <div class="d-md-block d-sm-none">
+                <div class="d-none d-md-block">
                     This drive to be part of the ever evolving world of technology has since been ramped up a gear during my time as a system analyst for 
                     <a href="https://www.fourth.com/en-gb/">Fourth Hospitality</a>.
                     <br>
@@ -69,13 +68,10 @@
                     I believe that a workplace / employees function most efficiently when they're happy. Which is why I employ mindfullness daily to reduce the stress of everyday life
                     and keep myself on top form mentally and physically.
                 </div>
-                <button class="btn btn-primary d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    Read More
-                </button>
-                <div class="collapse" id="collapseExample">
+                <div class="about-me-summary-collapse collapse" id="collapseExample">
                     <div class="card card-body">
                         This drive to be part of the ever evolving world of technology has since been ramped up a gear during my time as a system analyst for 
-                        <a href="https://www.fourth.com/en-gb/">Fourth Hospitality</a>.
+                        <a href="https://www.fourth.com/en-gb/">Fourth Hospitality</a>
                         <br>
                         This role has pieced together my understanding of how a technology company functions and given me a detailed overview of all stages of the development cycle. 
                         <br>
@@ -84,13 +80,20 @@
                         and keep myself on top form mentally and physically.
                     </div>
                 </div>
+                <button class="btn btn-primary d-sm-block d-md-none collapse-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Read More / Less
+                </button>
             </p>
-        </div>        
+        </div>
+        <div class="col-sm-12 col-md-6 text-md-right">
+            <hr class="about-me-summary-linebreak d-xs-none d-sm-block">
+            <h3 class="my-skills-header">My Skills</h3>
+        </div>     
     </div>
 </div>
 
 <!--Work History-->
-<div class="container-fluid">
+<div class="container-fluid work-history">
     <div class="row">
         <div class="col">
             <div class="card">
