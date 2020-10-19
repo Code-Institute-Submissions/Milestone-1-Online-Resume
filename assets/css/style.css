@@ -181,8 +181,8 @@ animation: fadeIn  ease-out 4s;
     text-align: right;
 }
 
-@media only screen and (max-width: 450px) {
-    .summary-text p, .future-plans p {
+@media only screen and (max-width: 1050px) {
+    .summary-text, .future-plans, .summary-text p, .future-plans p {
         text-align: center;
     }
 }
@@ -284,19 +284,8 @@ animation: fadeIn  ease-out 4s;
     text-align: right;
 }
 
-.resume-website-img {
-    float: right;
-}
-
-@media only screen and (max-width: 1000px) {
-    .resume-website-img, .love-running-website-img {
-        float: none;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .my-work-examples, .my-work-examples p {
+@media only screen and (max-width: 1050px) {
+    .love-running-context, .resume-context {
         text-align: center;
     }
 }
@@ -306,12 +295,6 @@ animation: fadeIn  ease-out 4s;
     margin: 0 auto;
     padding-bottom: 2rem;
     font-size: 1rem;
-}
-
-@media only screen and (min-width: 1000px) {
-    .love-running-context, .resume-context {
-        max-width: 60%;
-    }
 }
 
 .portfolio-button {
@@ -342,6 +325,12 @@ animation: fadeIn  ease-out 4s;
 @media only screen and (max-width: 500px) {
     .carousel-item i {
         margin-bottom: 10rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .carousel-item i {
+        margin-bottom: 12rem;
     }
 }
 
