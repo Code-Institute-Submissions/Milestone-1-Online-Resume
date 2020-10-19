@@ -327,6 +327,16 @@ animation: fadeIn  ease-out 4s;
     color: #F8F5F0;
 }
 
+/*About Me Page*/
+.about-me-main-header {
+    margin-top: 5rem;
+    color: #ffffff;
+}
+
+.about-me-summary {
+    color: #ffffff;
+}
+
 /*Portfolio Page*/
 
 .portfolio-header {
