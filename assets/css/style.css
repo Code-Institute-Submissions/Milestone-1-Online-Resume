@@ -254,6 +254,19 @@ animation: fadeIn  ease-out 4s;
     margin-bottom: 2rem;
 }
 
+.love-running-context, .resume-context {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+    .love-running-context, .resume-context {
+        max-width: 60%;
+    }
+}
+
 .portfolio-button {
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -291,6 +304,27 @@ animation: fadeIn  ease-out 4s;
 
 .palette-icon, .layer-icon, .mobile-icon {
     font-size: 3rem;
+}
+
+/*Bottom Nav Buttons and Quotes*/
+.bottom-nav-buttons {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.bottom-nav-buttons a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #F8F5F0;
+    width: 10rem;
+}
+
+.bottom-nav-buttons a:hover {
+    font-size: 0.6rem;
+}
+
+.quotes, .quotes cite {
+    color: #F8F5F0;
 }
 
 /*Portfolio Page*/
