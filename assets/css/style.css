@@ -520,6 +520,10 @@ animation: fadeIn  ease-out 4s;
     margin: 0 auto;
 }
 
+.work-history-header {
+    font-weight: bold;
+}
+
 .work-history .card-body {
     padding: 0px;
 }
@@ -533,8 +537,6 @@ animation: fadeIn  ease-out 4s;
     padding-left: 0;
     overflow: auto;
 }
-
-
 
 /*This section is not my work - I have copied this from https://www.bootdey.com/snippets/view/timeline-events#css "Use it in your project and build your app faster"*/
 .timeline {
@@ -660,10 +662,22 @@ animation: fadeIn  ease-out 4s;
     right: -55.8px;
 }
 /*Portfolio Page*/
-
 .portfolio-header {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-linebreak {
+    width: 80%;
+    border-bottom: 1px solid #fff;
+}
+
+.github-link {
+    margin-bottom: 1rem;
+}
+
+.github-link a {
+    color: rgb(204, 207, 252);
 }
 
 /*Contact Details*/
