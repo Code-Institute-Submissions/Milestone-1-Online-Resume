@@ -2,60 +2,108 @@
 
 This website is my first Milestone project on the https://codeinstitute.net/ - automatic [Code Institute - Full Stack Development Course] (https://codeinstitute.net/)
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## <h2>UX</h2>
+As my audience for this website consists of potential employers and collaborators, I wanted to keep the website simple and professional. 
+One of my main goals for the user experience was to create an intuitive, enjoyable experience whilst browsing my site to re-inforce my skills of web design to potential employers.
+I also ensured my code was well commented to indicate to potential collaborators that I am well organised and collaborating with me would be an easy process. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+Having a fixed Nav bar at the top of the page means that potential employers would find navigating the site very easy. 
+This is re-inforced by buttons linking to other pages within my website to learn more and to return to other pages on the website. 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Including the option to download my cv through a button is perfect for potential employers to quickly understand what experience I have and to gain and overview of my skills.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### <h3>User Story</h3>
+As a potential employer I want a quick overview of this developer and what they are capable of.
+I want to understand a bit about who they are as a person and their goals but also ensure that I'm in safe hands with my website / application. 
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+I'd like a lot of the main information to be structured on the main / landing page so I can get a summary and links to read more about relevant information.
+I want the site to be structured in a logical manner such that I have a general path to go down to reach my end goal of contacting and employing this developer. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+WIREFRAMES GO HERE
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## <h2>Features</h2>
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### <h3>Existing Features</h3>
+Feature 1 - Fixed nav bar. This helps to make the site easy to navigate and adds a professional look to the site. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Feature 2 - Large full page background image on landing page. This draws users in and makes the site look professional.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Feature 3 - Fade in animation adds smoothness to landing on each page. I have used inspiration for this animation from: 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Feature 4 - Buttons organised to display near relevant information to learn more or to provide additional navigational aid. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Feature 5 - Animations added to buttons when they're hovered over to clearly show that the button is selectable. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Feature 6 - Carousel Icon section - Courtesy of the Boostrap framework. This is a nice feature to draw a user in and demostrates my design skills. 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Feature 7 - Quote section at the bottom of each page. This adds my own twist to the website and gets the user thinking. This feature could help to ensure my site is memorable to 
+            potential employers or collaborators.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Feature 8 - Dark Footer to provide contrast to the page to indicate the end of the page. 
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Feature 9 - Icons placed inside sections to organise information and provide greater context to the section as a whole. 
 
-Credits
+Feature 10 - Summary section on the landing page gives a brief overview of what this page is about and who I am as a person. 
+             Buttons linking to about me page and my cv offers more information. 
+
+Feature 11 - A brief look at my work section provides and overview of my main completed projects (the completed projects shown in this section are not my own ideas and all rights
+            go to code Institute)
+
+Feature 12 - About me page summary. This builds on the information on the landing page summary. 
+
+Feature 13 - My Skills section. This section gives an overview of my skill set for potential employers and collaborators.
+
+Feature 14 - Work History section. This section gives an overview of my work History.
+
+Feature 15 - Portfolio Page. This is a good place to showcase my completed projects to show to employers and collaborators. (the completed projects shown in this section are 
+            not my own ideas and all rights go to code Institute)
+
+Feature 16 - Contact me page. This provides my contact details and also a form which sends me an email. (the form is yet to be setup in the back end - see more about this 
+             below.)
+
+### <h3>Future planned Features / Features left to impliment</h3>
+Feature 1 - I need to setup the back end of the contact me form once I have the knowledge to do so. 
+
+Feature 2 - Add more projects to the Portfolio page as my portfolio grows. 
+
+### <h3>Another feature idea</h3>
+I plan on improving this page with javascript animations. 
+
+## <h2>Technologies Used</h2>
+This project was developed with HTML5 CSS3 and the Boostrap framework. 
+
+### <h3>HTML5</h3>
+HTML5 provides the semantic markup for the page. This includes Boostrap classes and my own classes and ID's which are linked to my CSS3 style sheet. 
+
+### <h3>CSS3</h3>
+CCS3 provides the styles of the page and is referred to in the head of each HTML page. CSS is responsible for making the site responsive and arranging conent. 
+
+### <h3>Boostrap Framework</h3>
+Boostrap is a Framework of HTML5, CSS3 and javascript which aids in the creation of websites because of the time it cuts on laying out and making the site responsive.
+
+### <h3>Github, Gitpod and Github Pages</h3>
+I use Github for the storing of my repository which I use to store and edit my code. 
+Gitpod is linked to my github repository and I use it to edit and test my code in the browser. 
+I use Github Pages to deploy my finished project for users to view through a Web browser. 
+
+I use the arsenal that Github provides to provide version control for my project, allow the option for collaboration and to test my code. 
+
+## <h2>Testing</h2>
+I test my code by running the server for my repository and viewing it in browser and using Chrome Developer tools to see what the site looks like on each screen size and to
+edit the code in the browser. 
+
+I ensure all sections are responsive and organised appealingly on all screen sizes. 
+
+## <h2>Deployment</h2>
+The process I have taken to deploy this project once it was completed are: 
+1. Open the repository on GitHub
+2. Go to "Settings" (the tab on the right)
+3. Under the section "GitHub Pages", select the master branch as the source.  Then it shows you a green confirmation "Your site is published at......" with the URL.
+When done share the url with me
+
+There are no differences between my deployed code and the repository.
+
+# <h1>Credits</h1>
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
