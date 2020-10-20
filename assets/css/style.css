@@ -386,7 +386,7 @@ animation: fadeIn  ease-out 4s;
 
 /*About Me Page*/
 .profile-image-about {
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
 .about-me-main-header {
@@ -680,7 +680,19 @@ animation: fadeIn  ease-out 4s;
     color: rgb(204, 207, 252);
 }
 
-/*Contact Details*/
+/*Contact Me Page*/
+.contact-me-page-header, label, small, .contact-page-main-text {
+    color: #fff;
+}
+
+.contact-page-main-text {
+    text-align: center;
+}
+
+.profile-image-contact {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 
 .contact-icon {
     font-size: 4rem;
@@ -689,18 +701,27 @@ animation: fadeIn  ease-out 4s;
 
 .contact-details-container {
     margin: 0 auto;
-    width: 50%;
     text-align: center;
-    color: #ffffff;
+    background-color: #fff;
+    color: #1f8ac0;
 }
 
 .contact-details-container a {
-    color: #ffffff;
+    color: #1f8ac0;
 }
 
-.contact-details-header, .future-plans-header {
+.future-plans-header {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact-form button {
+    margin-bottom: 1rem;
 }
 
 /*Footer*/
