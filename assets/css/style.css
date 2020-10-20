@@ -385,34 +385,36 @@ animation: fadeIn  ease-out 4s;
 }
 
 /*About Me Page*/
-.about-me-summary-container {
-    background-color: #fff;
-}
-
 .profile-image-about {
-    margin-top: 4.3rem;
+    margin-top: 8rem;
 }
 
 .about-me-main-header {
-    color: #213970;
+    color: #fff;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
 
+@media only screen and (max-width: 1050px) {
+    .about-me-main-header {
+        margin-top: 0rem;
+    }
+}
+
 .about-me-header-linebreak {
-    border-bottom: 1px solid #213970;
+    border-bottom: 1px solid #fff;
     width: 50%;
 }
 
 .about-me-summary {
     max-width: 80%;
     margin: 0 auto 2rem;
+    color: #fff;
 }
 
-.about-me-summary div a {
+.about-me-summary a {
     color: #ffffff;
 }
-
 
 .about-me-summary-linebreak {
     height: 100%;
@@ -431,15 +433,33 @@ animation: fadeIn  ease-out 4s;
 .about-me-summary-buttons a {
     background-color: #F8F5F0;
     margin-right: 0rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 10rem;
 }
 
+.about-me-summary-buttons a:hover {
+    font-size: 0.6rem;
+}
+
+@media only screen and (max-width: 540px) {
+    .about-me-summary-buttons a {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 /*My Skills*/
+.my-skills-container {
+    background-color: #213970;
+}
+
 .my-skills-header {
-    color: #213970;
+    color: #ffffff;
     font-weight: bold;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -451,14 +471,46 @@ animation: fadeIn  ease-out 4s;
     list-style-type: none;
 }
 
-.my-skills h4, .my-skills h5 {
-    color: #213970;
+.my-skills p, .my-skills li {
+    color: #c3def8;
+}
+
+.my-skills h4, .my-skills h5, .my-skills i {
+    color: #ffffff;
     font-weight: bold;
 }
 
 .my-skills-linebreak {
     width: 50%;
     border-bottom: 1px solid #ffffff;
+}
+
+.general-skills-linebreak {
+    width: 80%;
+    border-bottom: 1px solid #fff;
+}
+
+.general-skills p {
+    color: #fff;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 540px) {
+    .general-skills p {
+        margin-top: 0.5rem;
+    }
+}
+
+.general-skills i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+
+.general-skills h4 {
+    color: #fff;
+    margin-top: 1rem;
 }
 
 /*Work History*/
