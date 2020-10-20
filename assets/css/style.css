@@ -390,9 +390,19 @@ animation: fadeIn  ease-out 4s;
 }
 
 .about-me-main-header {
-    color: #ffffff;
+    color: #213970;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
+}
+
+.about-me-header-linebreak {
+    border-bottom: 1px solid #213970;
+    width: 50%;
+}
+
+.about-me-secondary-header {
+    color: #213970;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 540px) {
@@ -407,12 +417,24 @@ animation: fadeIn  ease-out 4s;
     color: #ffffff;
 }
 
-.about-me-summary div a {
+.about-me-summary {
+    margin-top: 7.5%;
+    max-width: 80%;
+    margin: 3rem auto;
+}
+
+.about-me-summary .about-me-summary-collapse, .about-me-summary .about-me-summary-lg {
+    max-width: 70%;
+}
+
+.about-me-summary div a, .about-me-summary-lg a {
     color: #ffffff;
 }
 
-.about-me-summary-collapse .card {
+.about-me-summary-collapse .card, .about-me-summary-collapse .card a {
     background-color: #1f8ac0;
+    border: 0px;
+    color: #ffffff;
 }
 
 .collapse-button {
@@ -433,9 +455,38 @@ animation: fadeIn  ease-out 4s;
     }
 }
 
+.about-me-summary-buttons a {
+    background-color: #F8F5F0;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 10rem;
+}
+
 /*My Skills*/
 .my-skills-header {
+    color: #213970;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
 
+.my-skills {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.my-skills ul {
+    list-style-type: none;
+}
+
+.my-skills h4, .my-skills h5 {
+    color: #213970;
+    font-weight: bold;
+}
+
+.my-skills-linebreak {
+    width: 50%;
+    border-bottom: 1px solid #ffffff;
 }
 
 /*Work History*/
