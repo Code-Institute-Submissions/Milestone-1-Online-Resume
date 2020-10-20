@@ -385,8 +385,12 @@ animation: fadeIn  ease-out 4s;
 }
 
 /*About Me Page*/
+.about-me-summary-container {
+    background-color: #fff;
+}
+
 .profile-image-about {
-    margin-top: 5rem;
+    margin-top: 4.3rem;
 }
 
 .about-me-main-header {
@@ -400,46 +404,15 @@ animation: fadeIn  ease-out 4s;
     width: 50%;
 }
 
-.about-me-secondary-header {
-    color: #213970;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 540px) {
-    .about-me-secondary-header {
-        display: none;
-    }
-}
-
-.about-me-summary-container{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #ffffff;
-}
-
 .about-me-summary {
-    margin-top: 7.5%;
     max-width: 80%;
-    margin: 3rem auto;
+    margin: 0 auto 2rem;
 }
 
-.about-me-summary .about-me-summary-collapse, .about-me-summary .about-me-summary-lg {
-    max-width: 70%;
-}
-
-.about-me-summary div a, .about-me-summary-lg a {
+.about-me-summary div a {
     color: #ffffff;
 }
 
-.about-me-summary-collapse .card, .about-me-summary-collapse .card a {
-    background-color: #1f8ac0;
-    border: 0px;
-    color: #ffffff;
-}
-
-.collapse-button {
-    margin: 0.5rem auto;
-}
 
 .about-me-summary-linebreak {
     height: 100%;
@@ -471,7 +444,6 @@ animation: fadeIn  ease-out 4s;
 }
 
 .my-skills {
-    max-width: 80%;
     margin: 0 auto;
 }
 
