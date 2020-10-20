@@ -33,7 +33,7 @@ p, li, dd a {
     text-align: right;
 }
 
-.max-width-100 {
+.site-wrapper {
     max-width: 100%;
 }
 
@@ -404,8 +404,6 @@ animation: fadeIn  ease-out 4s;
 .about-me-summary-container{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     color: #ffffff;
 }
 
@@ -442,15 +440,26 @@ animation: fadeIn  ease-out 4s;
 
 /*Work History*/
 .work-history {
-    padding-left: 7.5px;
-    padding-right: 5px;
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-@media only screen and (max-width: 450px) {
-    .work-history .card-body {
-        padding: 0.5px;
-    }
+.work-history .card-body {
+    padding: 0px;
 }
+
+.work-history .row {
+    margin: 0;
+}
+
+.work-history .row .col {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: auto;
+}
+
+
 
 /*This section is not my work - I have copied this from https://www.bootdey.com/snippets/view/timeline-events#css "Use it in your project and build your app faster"*/
 .timeline {
@@ -473,6 +482,14 @@ animation: fadeIn  ease-out 4s;
     .timeline {
         max-width: 98%;
         padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 678px) {
+    .timeline {
+        max-width: 55%;
+        padding: 35px;
+        
     }
 }
 
