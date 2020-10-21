@@ -20,7 +20,15 @@ I'd like a lot of the main information to be structured on the main / landing pa
 I want the site to be structured in a logical manner such that I have a general path to go down to reach my end goal of contacting and employing this developer. 
 
 ### <h3>Wireframes</h3>
+<iframe src="https://onedrive.live.com/embed?cid=ED8B088278FFDC68&resid=ED8B088278FFDC68%21314&authkey=AEUWjkSm3g-fCG8&em=2" width="476" height="288" frameborder="0" 
+scrolling="no"></iframe>
+These are my wireframes for mobile 
 
+<iframe src="https://onedrive.live.com/embed?cid=ED8B088278FFDC68&resid=ED8B088278FFDC68%21315&authkey=AEM4bpXDL2-uq70&em=2" width="476" height="288" frameborder="0"
+scrolling="no"></iframe>
+These are my wireframes for desktop. 
+
+These wireframes were used only to determine my layout and colour scheme. 
 
 ## <h2>Features</h2>
 
