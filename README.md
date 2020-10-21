@@ -99,6 +99,9 @@ I used [Google-fonts](https://fonts.google.com/) for the fonts on my page.
 ### <h3>Icons8.com</h3>
 I used [icons-8.com](https://icons8.com/) for 2 of the icons on my page to break content up and group related data. 
 
+### <h3/>Just In Mine Prototyper</h3>
+I used [Just In Mine Prototyper](https://www.justinmind.com/) to build my wireframes so I had a basic overview of what I wanted my site to look like. 
+
 ## <h2>Testing</h2>
 I test my code by running the server for my repository and viewing it in browser and using Chrome Developer tools to see what the site looks like on each screen size and to
 edit the code in the browser. 
