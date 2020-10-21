@@ -1,6 +1,6 @@
 # <h1>Milestone-1-Online-Resume</h1>
 
-This website is my first Milestone project on the https://codeinstitute.net/ - automatic [Code Institute - Full Stack Development Course] (https://codeinstitute.net/)
+This website is my first Milestone project on the [Code Institute - Full Stack Development Course](https://codeinstitute.net/)
 
 ## <h2>UX</h2>
 As my audience for this website consists of potential employers and collaborators, I wanted to keep the website simple and professional. 
@@ -66,6 +66,8 @@ Feature 1 - I need to setup the back end of the contact me form once I have the 
 
 Feature 2 - Add more projects to the Portfolio page as my portfolio grows. 
 
+Feature 3 - I plan on changing the profile image to a more professional image. 
+
 ### <h3>Another feature idea</h3>
 I plan on improving this page with javascript animations. 
 
@@ -73,20 +75,29 @@ I plan on improving this page with javascript animations.
 This project was developed with HTML5 CSS3 and the Boostrap framework. 
 
 ### <h3>HTML5</h3>
-HTML5 provides the semantic markup for the page. This includes Boostrap classes and my own classes and ID's which are linked to my CSS3 style sheet. 
+[HTML5](https://www.w3.org/TR/html52/) provides the semantic markup for the page. This includes Boostrap classes and my own classes and ID's which are linked to my CSS3 style sheet. 
 
 ### <h3>CSS3</h3>
-CCS3 provides the styles of the page and is referred to in the head of each HTML page. CSS is responsible for making the site responsive and arranging conent. 
+[CCS3](https://www.w3.org/Style/CSS/Overview.en.html) provides the styles of the page and is referred to in the head of each HTML page. CSS is responsible for making the site responsive and arranging conent. 
 
 ### <h3>Boostrap Framework</h3>
-Boostrap is a Framework of HTML5, CSS3 and javascript which aids in the creation of websites because of the time it cuts on laying out and making the site responsive.
+[Boostrap](https://getbootstrap.com/) is a Framework of HTML5, CSS3 and javascript which aids in the creation of websites because of the time it cuts on laying out and making the site responsive.
 
 ### <h3>Github, Gitpod and Github Pages</h3>
-I use Github for the storing of my repository which I use to store and edit my code. 
-Gitpod is linked to my github repository and I use it to edit and test my code in the browser. 
-I use Github Pages to deploy my finished project for users to view through a Web browser. 
+I use [Github](https://github.com/) for the storing of my repository which I use to store and edit my code. 
+[Gitpod](https://www.gitpod.io/) is linked to my github repository and I use it to edit and test my code in the browser. 
+I use [Github Pages](https://pages.github.com/) to deploy my finished project for users to view through a Web browser. 
 
 I use the arsenal that Github provides to provide version control for my project, allow the option for collaboration and to test my code. 
+
+### <h3>Font awesome icons</h3>
+I used [font-awesome](https://fontawesome.com/)'s icons on my page to break up the content and group related data.
+
+### <h3>Google Fonts</h3>
+I used [Google-fonts](https://fonts.google.com/) for the fonts on my page. 
+
+### <h3>Icons8.com</h3>
+I used [icons-8.com](https://icons8.com/) for 2 of the icons on my page to break content up and group related data. 
 
 ## <h2>Testing</h2>
 I test my code by running the server for my repository and viewing it in browser and using Chrome Developer tools to see what the site looks like on each screen size and to
@@ -104,9 +115,26 @@ When done share the url with me
 There are no differences between my deployed code and the repository.
 
 # <h1>Credits</h1>
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+## <h2>Content</h2>
+My work section and Portfolio section - the projects on this page are for demonstration purposes only and all rights go to [Code-Institute](https://codeinstitute.net/)
+
+I adapted the css code from [Tremaine Eto](https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08)
+to add the fade in animation to the body of each page on my site. 
+
+The quotes on my site are all linked to pages about the quotes owner. All rights to these quotes go to their respective owners. 
+
+I used Boostrap as a external dependency to speed up the development process.
+
+I used [https://www.bootdey.com/snippets/view/timeline-events#css](https://www.bootdey.com/snippets/view/timeline-events#css)'s code snippet to build the work history section
+and I have added my own styles and content to this. 
+
+## <h2>Photos</h2>
+Profile Picture (MikeProfilePic.jpg) - This is a picture taken by myself of myself and all rights go to myself.
+
+LoveRunning (LoveRunning.png) - This is a screenshot taken from the Love Running walkthrough project and all rights go to [Code-Institute](https://codeinstitute.net/)
+
+Resume Website (ResumeWebsite.png) - This is a screenshot taken from the Love Running walkthrough project and all rights go to [Code-Institute](https://codeinstitute.net/)
+
+Landing page background image (iStock-1174690086.jpg) - This is a stock photo that I have bought from 
+[i-stock](https://www.istockphoto.com/photo/software-developer-freelancer-working-at-home-gm1174690086-326799587) - Credit - user: monstArrr_
+Stock photo ID:1174690086
