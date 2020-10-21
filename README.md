@@ -19,7 +19,8 @@ I want to understand a bit about who they are as a person and their goals but al
 I'd like a lot of the main information to be structured on the main / landing page so I can get a summary and links to read more about relevant information.
 I want the site to be structured in a logical manner such that I have a general path to go down to reach my end goal of contacting and employing this developer. 
 
-WIREFRAMES GO HERE
+### <h3>Wireframes</h3>
+
 
 ## <h2>Features</h2>
 
